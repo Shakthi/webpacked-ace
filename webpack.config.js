@@ -6,7 +6,7 @@ module.exports = function (env) {
 	let production= {
 		devtool: 'none',
 		mode: 'development',
-		entry: './src/ace.js',
+		entry: './lib/ace/ace.js',
 		
 		output: {
 			path: path.join(__dirname, 'dist'),
@@ -19,7 +19,7 @@ module.exports = function (env) {
 		
 	};
 
-
+	
 	
 	let development= {
 		devtool: 'none',
