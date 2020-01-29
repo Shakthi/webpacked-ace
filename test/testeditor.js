@@ -9,6 +9,5 @@ var editor = ace.edit(null, {
     bug: 1
 })
 
-editor.selection.setRange(new Range(0,0,0,3))
 
 document.body.appendChild(editor.container)
