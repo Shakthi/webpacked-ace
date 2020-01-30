@@ -1,3 +1,14 @@
+webpacked-ace
+===============
+Aim of this fork to have a hackable ace editor source(Not a seperate 'builds' package) compatible with webpack.
+
+Command `npm start` starts a webpack-dev-server at  http://localhost:8080 that is ready to hack. Changes in the code should refresh the browser.
+
+TODO
+----
+- To make dynamic module such as syntax/snippet/theme work with the continous build process of webpack.
+
+
 Ace (Ajax.org Cloud9 Editor)
 ============================
 
