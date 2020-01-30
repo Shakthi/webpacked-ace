@@ -22,8 +22,7 @@ module.exports = function (env) {
 	
 	
 	let development= {
-		devtool: 'none',
-		mode: 'development',
+		devtool: 'sourcemap',
 		mode: 'development',
 		entry: './test/testeditor.js',
 		output: {
